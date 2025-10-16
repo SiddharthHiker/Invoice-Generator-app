@@ -1,7 +1,7 @@
 import { Icon } from 'lucide-react'
 import React from 'react'
 
-const TextareaField = ({label, name, options, ...props}) => {
+const TextareaField = ({icon: Icon, label, name, ...props}) => {
   return (
     <div>
       <label htmlFor={name} className='block text-sm font-medium text-slate-700 mb-2'>{label}</label>
